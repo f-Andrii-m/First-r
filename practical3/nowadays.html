@@ -3,6 +3,46 @@
 <head>
     <meta charset="utf-8">
     <title>nowadays</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        ul li {
+            padding: 10px;
+            margin-bottom: 5px;
+            color: #333; 
+        }
+
+        ul li ul li:nth-child(odd) {
+            background-color: #ccc;
+        }
+
+        ul li ul li:nth-child(even) {
+            background-color: #fff; 
+        }
+        
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        ol li {
+            padding: 10px;
+            margin-bottom: 5px; 
+            cursor: default;
+        }
+
+        ol li:nth-child(3):hover,
+        ol li:nth-child(5):hover {
+            cursor: pointer; 
+            text-decoration: underline; 
+        }
+
+        ol li:nth-child(4) {
+            background-color: #0eeb71; 
+        }
+    </style>
 </head>
 <body>
     <h1>Сьогодення Фаїка Андрія Миколайовича</h1>
