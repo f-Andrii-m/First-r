@@ -4,38 +4,36 @@
 .h {
     text-align: center
 }
-p {
-    border: 1px solid rgb(0, 0, 0);
+.d {
+    background-color: rgb(149, 82, 212) ;
     width: 90%;
     height: 150px;
-    background-color: blueviolet ;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
+    border: 2px solid rgb(0, 0, 0);
 }
-    
 .s {
     width: 100%;
 
 }
-/*.d {
+.d {
     position: relative;
     
 }
-
-    
-}
 .hd {
-    width: 50px;
-    height: 25px;
-    background-color: #f00;
+    width: auto;
+    height: auto;
+    background-color: rgb(187, 255, 0);
     position: absolute;
     top: 0;
     right: 0;
     margin: 0;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
-}*/
+    float: right;
+
+}
 
 @media (min-width: 992px){
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
@@ -85,7 +83,7 @@ p {
         .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
         .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-        border: 1px solid green;
+        border: 1px solid rgb(255, 255, 255);
         }
         .col-md-1 {
         width: 8.33%;
