@@ -13,6 +13,9 @@
     font-family: Helvetica;
     border: 2px solid rgb(0, 0, 0);
 }
+p {
+    margin-top: 50px;
+}
 .s {
     width: 100%;
 
@@ -23,7 +26,7 @@
 }
 .hd {
     width: auto;
-    height: auto;
+    height: 50px;
     background-color: rgb(187, 255, 0);
     position: absolute;
     top: 0;
