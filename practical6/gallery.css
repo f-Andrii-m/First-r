@@ -1,0 +1,22 @@
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+.w {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+h3.q {
+text-align: center;
+font-size: 120%;
+}
+h3.e{
+text-align: center;
+font-size: 180%;
+}
+h3.t{
+text-align: center;
+font-size: 210%;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #333; 
+}
+.w {
+    font-style: italic;
+}
+ul li ul li:nth-child(odd) {
+    background-color: #ccc;
+}
+
+ul li ul li:nth-child(even) {
+    background-color: #fff; 
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 10px;
+    margin-bottom: 5px; 
+    cursor: default;
+}
+
+ol li:nth-child(3):hover,
+ol li:nth-child(5):hover {
+    cursor: pointer; 
+    text-decoration: underline; 
+}
+
+ol li:nth-child(4) {
+    background-color: #0eeb71; 
+}

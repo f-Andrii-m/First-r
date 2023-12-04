@@ -1,0 +1,60 @@
+.q {
+    color: #f0f8ff;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px;
+    width: 140px;
+    display: inline-block;
+    transition: background-color 0.1s, color 0.1s;
+    border: 2px solid #dbbfbf;
+}
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+h3 {
+    text-align: center;    
+}
+article{
+    font-size: 120%;  
+}
+article h4{
+    font-size: 120%;
+}
+article a{
+    font-weight: bold;
+}
+.k {
+    text-transform: uppercase;
+}
+.w {
+    font-style: italic;
+}
+.q:hover {
+    background-color: rgb(146, 35, 168);
+    color: rgb(0, 0, 0);
+}
+
+.q:active {
+    color:yellow;
+}
+.a {
+    color:rgb(110, 9, 9);
+    background-color:#68db64;
+}
+.s {
+    color:rgb(2, 95, 80); 
+    background-color:#e7e687;
+}
+.d {
+    color:rgb(124, 26, 133);
+    background-color:#f0ed44;
+}
+.f {
+    color:rgb(245, 169, 5);
+    background-color:#0d085a;
+}
+.g {
+    color:rgb(255, 11, 182);
+    background-color:#400b5f;
+}
