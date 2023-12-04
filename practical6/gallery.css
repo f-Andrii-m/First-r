@@ -2,21 +2,93 @@ h1 {
     font-size: 20px;
     text-align: center;
 }
+
 .w {
     font-style: italic;
 }
+
 h2 {
     text-align: center;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+    margin: 10px;
+}
+
 h3.q {
-text-align: center;
-font-size: 120%;
+    text-align: center;
+    font-size: 120%;
 }
-h3.e{
-text-align: center;
-font-size: 180%;
+
+h3.e {
+    text-align: center;
+    font-size: 180%;
 }
-h3.t{
-text-align: center;
-font-size: 210%;
+
+h3.t {
+    text-align: center;
+    font-size: 210%;
+}
+
+@media (min-width: 992px) {
+    section {
+        display: flex;
+    }
+
+    section div {
+        width: 33.33%;
+        text-align: center;
+    }
+
+    h3.q, h3.e, h3.t {
+        font-size: 100%;
+    }
+
+    img.q, img.e, img.t {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    h3.q,
+    h3.e {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    img.q,
+    img.e {
+        width: 50%;
+        display: inline-block;
+    }
+
+    h3.t,
+    img.t {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h3.q,
+    h3.e,
+    h3.t,
+    img.q,
+    img.e,
+    img.t {
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
 }
