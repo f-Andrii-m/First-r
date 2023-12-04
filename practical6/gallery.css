@@ -41,6 +41,7 @@ h3.t {
 @media (min-width: 992px) {
     section {
         display: flex;
+        flex-direction: row;
     }
 
     section div {
